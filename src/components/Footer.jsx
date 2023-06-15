@@ -20,13 +20,11 @@ const Footer = () => {
           <span> {new Date().getFullYear()}</span> all rights reserved
         </p>
         <div className="contacts">
-          <p className="contact-text">
-            <BsTelephone className="contact-icon" />
-              +254705580692
+          <p className="contact">
+            <BsTelephone /> +254705580692
           </p>
-          <p className="contact-text">
-            <AiOutlineMail className="contact-icon" />
-            njaagagakure@gmail.com
+          <p className="contact">
+            <AiOutlineMail /> njaagagakure@gmail.com
           </p>
         </div>
       </div>

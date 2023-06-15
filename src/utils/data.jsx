@@ -8,6 +8,7 @@ import sliderImg from '../assets/slider-img.jpeg'
 import questionsImg from '../assets/questions-img.jpeg'
 import reviewsImg from '../assets/reviews-img.jpeg'
 import birthdayImg from '../assets/birthday-img.jpeg'
+import storeImg from '../assets/store-img.jpeg'
 export const pageLinks = [
     {
         id: nanoid(),
@@ -45,6 +46,12 @@ export const socialLinks = [
 export const projects = [
     {
         id: nanoid(),
+        image: storeImg,
+        title: "e-commerse-site",
+        url: "https://a2z-online.netlify.app"
+    },
+    {
+        id: nanoid(),
         image: cocktailImg,
         title: "cocktail db",
         url: "https://cocktail-api-proj.netlify.app/"
@@ -78,7 +85,7 @@ export const projects = [
         id: nanoid(),
         image: questionsImg,
         title: "accordion",
-        url: "https://utali.netlify.app/"  
+        url: "https://accordion-query-app.netlify.app"  
     },
     {
         id: nanoid(),
