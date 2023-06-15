@@ -327,12 +327,10 @@ img {
 .footer-center {
   width: 90vw;
   max-width: 900px;
-  text-align: center;
   padding: 1rem;
 }
 .footer-social {
   display: flex;
-  justify-content: center;
   gap: 1rem;
 }
 .footer-social a {
@@ -348,9 +346,8 @@ img {
   letter-spacing: 1px;
 }
 .contacts {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  display: grid;
+  gap: 0.5rem;
   margin-top: 0.5rem;
 }
 .contact-text {
@@ -410,6 +407,18 @@ img {
 .error-btn:hover {
   background: var(--primary-500);
   color: #ffffff;
+}
+@media (min-width: 600px) {
+  .footer-social {
+    justify-content: center;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .contacts {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
 }
 @media (min-width: 900px) {
   .nav-toggle,
