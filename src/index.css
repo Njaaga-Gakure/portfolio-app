@@ -349,7 +349,7 @@ p {
 .contacts {
   margin: 0;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
 }
 .contact {
   display: flex;
@@ -412,8 +412,9 @@ p {
     text-align: center;
   }
   .contacts {
-    grid-template-columns: auto auto;
+    flex-direction: row;
     justify-content: center;
+    gap: 1rem;
   }
 }
 @media (min-width: 900px) {
